@@ -1,8 +1,8 @@
 # __ECE143_Team25__
 
-Steven Sharp - A13232191
-Tanaya Kolankari
-Yifei Wu
+Steven Sharp - A13232191 <br/>
+Tanaya Kolankari -  <br/>
+Yifei Wu -  <br/>
 <br/><br/>
 
 # __Discretionary Income Checker__<br/>
