@@ -1,8 +1,8 @@
 # __ECE143_Team25__
 
-Steven Sharp - .....2191 <br/>
-Tanaya Kolankari -  <br/>
-Yifei Wu -  <br/>
+Steven Sharp - ...2191 <br/>
+Tanaya Kolankari - ...5700 <br/>
+Yifei Wu - ...2438 <br/>
 <br/><br/>
 
 # __Discretionary Income Checker__<br/>
@@ -27,10 +27,10 @@ __Planning and Framing the program__<br/>
 __Gathering the Data__<br/>
 * Datasets distributed and scraped, collected, cleaned and consolidated: Tax Datasets *(FICA, Federal, State, Local County)*, CoL Dataset (Numbeo)*
   * __Issue arisen__: Numbeo Dataset inconsistent and user-entry based. Alternative dataset discovered under ideal framework as [__'LivingWage'__ data](livingwage.mit.edu). Living Wage dataset includes
-    i. $base qty, 
-    i. Average Medical costs
-    i. utility fees
-    i. local sales taxes 
+    1. $base qty, 
+    1. Average Medical costs
+    1. utility fees
+    1. local sales taxes 
   * Tax datasets not easily pre-structured as expected, significant manual data cleaning required before application.
   * Skill gap in web-scraping and cleaning required heavy
 * Consolidating the data requires some conventional standards between data types before processing mathematically.
