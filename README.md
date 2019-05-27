@@ -26,7 +26,7 @@ __Planning and Framing the program__<br/>
 ## Stage 2
 __Gathering the Data__<br/>
 * Datasets distributed and scraped, collected, cleaned and consolidated: Tax Datasets *(FICA, Federal, State, Local County)*, CoL Dataset (Numbeo)*
-  * __Issue arisen__: Numbeo Dataset inconsistent and user-entry based. Alternative dataset discovered under ideal framework as [__'LivingWage'__ data](livingwage.mit.edu). Living Wage dataset includes
+  * __Issue arisen__: Numbeo Dataset inconsistent and user-entry based. Alternative dataset discovered under ideal framework as [__'LivingWage'__ data](http://livingwage.mit.edu/). Living Wage dataset includes
     1. $base qty, 
     1. Average Medical costs
     1. utility fees
