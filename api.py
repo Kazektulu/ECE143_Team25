@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 BASE_URL = "http://www.numbeo.com:8008/api/"
-API_KEY = "i3yomanspm7o3r"
+API_KEY = ""
 COUNTRY = "United States"
 
 # Trinity's north carolina problem - not happening before - solve before final submit
