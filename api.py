@@ -127,3 +127,19 @@ def get_county():
         
 #parameters = {'api_key':API_KEY, 'country':COUNTRY, 'city':Aberdeen}
 #response = requests.get(BASE_URL+"/city_prices",params=parameters)
+        
+def QoL_api():
+    '''
+    
+    '''
+    
+    SECTION='12'
+    parameters = {'api_key':API_KEY,'section':SECTION}
+    response = requests.get(BASE_URL+"/rankings_by_city_current",params=parameters)
+    
+    with open('qol_cities.json','w') as fp:
+        json.dump(response.json(),fp)
+        
+    qol_df = pd.read_json("qol_cities.json")
+    qol_US_df = qol_df[qol_df.country == 'United States']
+    qol_US_df.to_csv('Numbeo_API_Data/qol_cities.csv')

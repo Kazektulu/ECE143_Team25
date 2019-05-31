@@ -88,5 +88,13 @@ def county_state_df(filename, state_map=states):
     county_df['state'] = county_df['state'].map(states)
     
     return county_df
+
+def state_full(city_state):
+    '''
+    
+    '''
+    city, state = city_state.split(', ')
+    state_full = states[state]
+    return state_full
     
     
