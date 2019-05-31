@@ -1,7 +1,7 @@
 import geocoder
 import pandas as pd
 
-API_KEY = 'AIzaSyAV3tjMoAOeUHUA0opCQciAzi6EdKGgwvc'
+API_KEY = ''
 
 states = {
     'AK': 'Alaska',
