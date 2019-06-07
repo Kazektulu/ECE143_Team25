@@ -25,7 +25,7 @@ __Planning and Framing the program__<br/>
 
 ## Stage 2
 __Gathering the Data__:<br/>
-*Datasets distributed and scraped, collected, cleaned and consolidated: Tax Datasets *(FICA, Federal, State, Local County)*, CoL Dataset (Numbeo)*
+*Datasets distributed and scraped, collected, cleaned and consolidated: Tax Datasets *(FICA, Federal, State, Local County)*, CoL Dataset (Numbeo)*<br/>
   * __Issue arisen__: Numbeo Dataset inconsistent and user-entry based. Alternative dataset discovered under ideal framework as [__'LivingWage'__ data](http://livingwage.mit.edu/). Living Wage dataset includes
     1. $base qty, 
     1. Average Medical costs
@@ -33,15 +33,15 @@ __Gathering the Data__:<br/>
     1. local sales taxes 
   * Tax datasets not easily pre-structured as expected, significant manual data cleaning required before application.
   * Skill gap in web-scraping and cleaning required heavy
-* Consolidating the data requires some conventional standards between data types before processing mathematically.</br></br>
+* Consolidating the data requires some conventional standards between data types before processing mathematically.<br/><br/>
 
 ## Stage 3: Updates
-*__Data changes before processing applied__: results from Gathered, cleaned and scrubbed data yeilded need for minor changes. </br>*
-  * __Data skipped__ due to manual cleaning complexity and complexity to resolving county<->city for different dataset sources: _County-based Tax Data_</br> __Overall impact__: resolution of results increase to state, few data points for states dependant on county tax rather than a state rate will hold higher approximation error.
+*__Data changes before processing applied__:<br/> Results from gathered, cleaned and scrubbed data yeilded need for minor changes.*<br/>
+  * __Data skipped__ due to manual cleaning complexity and complexity to resolving county<->city for different dataset sources: _County-based Tax Data_</br>   __Overall impact__: resolution of results increase to state, few data points for states dependant on county tax rather than a state rate will hold higher approximation error.
   * __Data added__: *Quality of Life Data* from *LivingWage Dataset* added to resolve questions/concerns regarding purely cost-based insights that may shift by urban vs rural environment, and add further analysis insight into which conditions may yeild a better target condition: whether QoL follows Population Density, CoL, or DI itself.
-  * __Data Source Resolution__: Numbeo was already scraped, cleaned and added to appropriate frames, so will __continue to use Numbeo for Cost of Living Data__. *livingWage Data* may be applicable later if program/analysis needs to be taken to next version level for increased precision of calculations/qualifying data.
+  * __Data Source Resolution__: Numbeo was already scraped, cleaned and added to appropriate frames, so will __continue to use Numbeo for CoL Data__. *LivingWage Data* may be applicable later if program/analysis needs to be taken to next version level for increased precision of calculations/qualifying data.<br/><br/>
 
 ## Stage 4
 __Processing the Data__<br/>
-* 
+*....*<br/>
 
