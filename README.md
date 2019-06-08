@@ -74,39 +74,67 @@ __Presentation and Consolidation of Data__:<br/> *Notes*
   1. Returning to the first discrepancy of the project: Explicitly defined discretionary income- calculated vs applied within the __Financial Industry__ itself: (__Salary - (1.5 * Federal Povery Rate) == Salary - $18,735__.) There is an *extrordinarily large distortion* of actual values where the value of calculable DI could expect in comparison to the convenient values the financial industry uses to *__evaluate the magnitude of Loan Interest Rates__* they can justify to assign to citizens.<br/> While speculation could only be validated with better qualified/ high precision datasets; assuming these trends hold true, the financial industry would be expected to know better for such a misleading/false difference, and so this observation leads to a *very dark __speculation__* of abuse of position; likely attributing to many of the modern day crisis in America between student loans, the Millenial generation's lack of purchasing power, the economy drying up, and the cause of so many economic crashes by economic bubbles already attributed to the financial industry's loan practices.  
   
 # File Structure:
-*some text*
-  * Outline style bullet points
+
+Root
+|
++----processed_data
+|       |   di_col_qol_final.csv
+|       |   discretionary_income_col.csv
+|       |   job_samples_di_components.csv
+|
++----raw_data
+|       |   DI_central.xlsx
+|       |   DI_east.xlsx
+|       |   DI_west.xlsx
+|       |   QoL_central.xlsx
+|       |   QoL_east.xlsx
+|       |   QoL_west.xlsx
+|       |   all_cities_US.txt
+|       |   all_city_item_prices.csv
+|       |   clean_city_item_prices.csv
+|       |   col_di_metropolitan_manual.xlsx
+|       |   federal_tax_manual.csv
+|       |   health_data.csv
+|       |   job_samples_manual.csv
+|       |   population_data_manual.csv
+|       |   quality_of_life_cities.csv
+|       |   salary_data.csv
+|       |   state_tax_manual.csv
+|
++----scripts
+|       +----data_collection_cleaning
+|       |       +---__pycache__
+|       |       |       |   utils.cpython-37.pyc
+|       |       |
+|       |       |   city_item_prices.py 	
+|       |       |   quality_of_life.py 	
+|       |       |   salary_health_data_scraper.py 
+|       |       |   utils.py
+|       |
+|       +----data_processing
+|       |       +---__pycache__
+|       |       |       |   discretionary_income_compute.cpython-37.pyc
+|       |       |       |   income_components_compute.cpython-37.pyc
+|       |       |       |   utils.cpython-37.pyc
+|       |       |       
+|       |       | 	 discretionary_income_compute.py
+|       |       |   income_components_compute.py
+|       |       |   quality_of_life.py
+|       |       |   sample_job_processing.py
+|       |       |   utils.py
+|  
+|    Group_25_ECE143_PPT.pdf
+|    Group_25_Project_Proposal.pdf
+|    README.md
+|    Visualizations Notebook.ipynb
+|    plot_bar_job_sample.py
+|    plot_bar_metropolitan.py
+|    plot_line_graph.py
+|    plot_pie_chart_job_sample.py 
+|    plot_us_map_slide.py
 
 # How to run the code:
-## Program Dependencies
- 1. __pandas__
- 2. __numpy__
- 3. __plotly__ <br/>
- To install Plotly's python package, use the package manager pip inside your terminal. <br/>
- $ pip install plotly <br/>
- or <br/>
- $ sudo pip install plotly <br/>
- Plotly's Python package is updated frequently! To upgrade, run: <br/>
- $ pip install plotly --upgrade<br/>
- 4. __beautifulSoup__<br/>
- How to install beautiful soup library?<br/>
- You can just follow the link below:<br/>
- https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python
- 5. __selenium__<br/>
- How to install selenium library?<br/>
- You can just follow the link below:<br/>
- https://selenium-python.readthedocs.io/installation.html
- 
- ## Run the Program
- __Data Collection and Cleaning:__ <br/>
- scripts -> data_collection_cleaning <br/>
- NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py <br/>
- SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py <br/>
- __Make sure that you give proper filenames and the API KEY for all of the data collection codes__ <br/>
- 
- __Data Analysis:__ <br/>
- scripts -> data_processing <br/>
- Run scripts - discretionary_income_compute.py, quality_of_life.py, sample_job_processing.py <br/>
- 
- __Data Visualization:__ <br/>
- Run the Visualizations Notebook.ipynb <br/>
+*some more text*
+ 1. step
+ 1. step
+ 1. step
