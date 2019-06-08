@@ -140,10 +140,6 @@ Root
  NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py <br/>
  SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py <br/>
  __Make sure that you give proper filenames and the API KEY for all of the data collection codes__ <br/>
- scripts -> data_collection_cleaning <br/>
- NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py <br/>
- SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py <br/>
- __Make sure that you give proper filenames and the API KEY for all of the data collection codes__ <br/>
 
  __Data Analysis:__ <br/>
  scripts -> data_processing <br/>
