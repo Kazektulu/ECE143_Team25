@@ -79,20 +79,27 @@ __Presentation and Consolidation of Data__:<br/> *Notes*
 
 # How to run the code:
 ## Program Dependencies
- 1. pandas
- 2. numpy
- 3. plotly <br/>
+ 1. __pandas__
+ 2. __numpy__
+ 3. __plotly__ <br/>
  To install Plotly's python package, use the package manager pip inside your terminal. <br/>
  $ pip install plotly <br/>
  or <br/>
  $ sudo pip install plotly <br/>
  Plotly's Python package is updated frequently! To upgrade, run: <br/>
  $ pip install plotly --upgrade<br/>
- 4. beautifulSoup<br/>
+ 4. __beautifulSoup__<br/>
  How to install beautiful soup library?<br/>
  You can just follow the link below:<br/>
  https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python
- 5. selenium<br/>
+ 5. __selenium__<br/>
  How to install selenium library?<br/>
  You can just follow the link below:<br/>
  https://selenium-python.readthedocs.io/installation.html
+ 
+ ## Run the Program
+ __Data Collection and Cleaning:__ <br/>
+ scripts -> data_collection_cleaning
+ NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py
+ SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py
+ __Make sure that you give proper filenames and the API KEY for all of the data collection codes__
