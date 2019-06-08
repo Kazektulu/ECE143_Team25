@@ -75,63 +75,63 @@ __Presentation and Consolidation of Data__:<br/> *Notes*
   
 # File Structure:
 
-Root
-|
-+----processed_data
-|       |   di_col_qol_final.csv
-|       |   discretionary_income_col.csv
-|       |   job_samples_di_components.csv
-|
-+----raw_data
-|       |   DI_central.xlsx
-|       |   DI_east.xlsx
-|       |   DI_west.xlsx
-|       |   QoL_central.xlsx
-|       |   QoL_east.xlsx
-|       |   QoL_west.xlsx
-|       |   all_cities_US.txt
-|       |   all_city_item_prices.csv
-|       |   clean_city_item_prices.csv
-|       |   col_di_metropolitan_manual.xlsx
-|       |   federal_tax_manual.csv
-|       |   health_data.csv
-|       |   job_samples_manual.csv
-|       |   population_data_manual.csv
-|       |   quality_of_life_cities.csv
-|       |   salary_data.csv
-|       |   state_tax_manual.csv
-|
-+----scripts
-|       +----data_collection_cleaning
-|       |       +---__pycache__
-|       |       |       |   utils.cpython-37.pyc
-|       |       |
-|       |       |   city_item_prices.py 	
-|       |       |   quality_of_life.py 	
-|       |       |   salary_health_data_scraper.py 
-|       |       |   utils.py
-|       |
-|       +----data_processing
-|       |       +---__pycache__
-|       |       |       |   discretionary_income_compute.cpython-37.pyc
-|       |       |       |   income_components_compute.cpython-37.pyc
-|       |       |       |   utils.cpython-37.pyc
-|       |       |       
-|       |       | 	 discretionary_income_compute.py
-|       |       |   income_components_compute.py
-|       |       |   quality_of_life.py
-|       |       |   sample_job_processing.py
-|       |       |   utils.py
-|  
-|    Group_25_ECE143_PPT.pdf
-|    Group_25_Project_Proposal.pdf
-|    README.md
-|    Visualizations Notebook.ipynb
-|    plot_bar_job_sample.py
-|    plot_bar_metropolitan.py
-|    plot_line_graph.py
-|    plot_pie_chart_job_sample.py 
-|    plot_us_map_slide.py
+Root <br/>
+| <br/>
++----processed_data <br/>
+|       |   di_col_qol_final.csv <br/>
+|       |   discretionary_income_col.csv <br/>
+|       |   job_samples_di_components.csv <br/>
+| <br/>
++----raw_data <br/>
+|       |   DI_central.xlsx <br/>
+|       |   DI_east.xlsx <br/>
+|       |   DI_west.xlsx <br/>
+|       |   QoL_central.xlsx <br/>
+|       |   QoL_east.xlsx <br/>
+|       |   QoL_west.xlsx <br/>
+|       |   all_cities_US.txt <br/>
+|       |   all_city_item_prices.csv <br/>
+|       |   clean_city_item_prices.csv <br/>
+|       |   col_di_metropolitan_manual.xlsx <br/>
+|       |   federal_tax_manual.csv <br/>
+|       |   health_data.csv <br/>
+|       |   job_samples_manual.csv <br/>
+|       |   population_data_manual.csv <br/>
+|       |   quality_of_life_cities.csv <br/>
+|       |   salary_data.csv <br/>
+|       |   state_tax_manual.csv <br/>
+| <br/>
++----scripts <br/>
+|       +----data_collection_cleaning <br/>
+|       |       +---__pycache__ <br/>
+|       |       |       |   utils.cpython-37.pyc <br/>
+|       |       | <br/>
+|       |       |   city_item_prices.py 	 <br/>
+|       |       |   quality_of_life.py 	 <br/>
+|       |       |   salary_health_data_scraper.py  <br/>
+|       |       |   utils.py <br/>
+|       | <br/>
+|       +----data_processing <br/>
+|       |       +---__pycache__ <br/>
+|       |       |       |   discretionary_income_compute.cpython-37.pyc <br/>
+|       |       |       |   income_components_compute.cpython-37.pyc <br/>
+|       |       |       |   utils.cpython-37.pyc <br/>
+|       |       |       <br/>
+|       |       | 	 discretionary_income_compute.py <br/>
+|       |       |   income_components_compute.py <br/>
+|       |       |   quality_of_life.py <br/>
+|       |       |   sample_job_processing.py <br/>
+|       |       |   utils.py <br/>
+|   <br/>
+|    Group_25_ECE143_PPT.pdf <br/>
+|    Group_25_Project_Proposal.pdf <br/>
+|    README.md <br/>
+|    Visualizations Notebook.ipynb <br/>
+|    plot_bar_job_sample.py <br/>
+|    plot_bar_metropolitan.py <br/>
+|    plot_line_graph.py <br/>
+|    plot_pie_chart_job_sample.py  <br/>
+|    plot_us_map_slide.py <br/>
 
 # How to run the code:
 ## Run the Program
