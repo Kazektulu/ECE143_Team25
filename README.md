@@ -5,7 +5,7 @@ Tanaya Kolankari - ...5700 <br/>
 Yifei Wu - ...2438 <br/>
 <br/><br/>
 
-# __Discretionary Income Checker__<br/>
+# __Discretionary Income__<br/>
 
 ## Introduction
  This project is for a class assignment in accordance with UCSD and ECE 143 guidelines. The objective is to probe and build abilities in data analysis utilizing real world datasets to perform a realistic and interesting objective. Rather than a singular task for the sake of novelty, we chose to build a toolset that is something each of us see as useful and important for not only us, but the other students and working professionals alike.<br/><br/>
@@ -44,7 +44,7 @@ __Gathering the Data__:<br/>
 ## Stage 4
 __Processing the Data__:<br/>
 *The ideal Data Format will be processed in regard to user input variable as Salary, and process base calculations as defined by Discretionary Income:*<br/>
-  * __Discretionary Income = [Salary]* (1- [FICA Tax]- [Federal Tax]- [State Tax]- [~~Local Tax~~])- [Cost of Living]__<br/>*
+  * __Discretionary Income = [Salary] * (1 - [FICA Tax] - [Federal Tax] - [State Tax] - [~~Local Tax~~]) - [Cost of Living]__<br/>
   * To target interesting data analysis for presentation however, the user entry tool will be forgone to include other metrics to bring about insightful conclusions: 
      1. Firstly, *Salaries by job offer differ by region*. Thus, we will weigh the calculated DI against an Industry based regional basis as a value normalizing feature, and see if something interesting can be observed through the US. 
      1. Secondly, by evaluating purely monetary cost metrics by region affected heavily by CoL may ignore some key potential trends wherein *assuming high tax rates, and high cost of living provide high Quality of Life*, a Quality of Life rating of regions such as Metropolitan Hubs (where most high paying jobs would correlate) may be a worthy tradeoff for a lower DI, so a comparison will be performed here.
