@@ -78,7 +78,21 @@ __Presentation and Consolidation of Data__:<br/> *Notes*
   * Outline style bullet points
 
 # How to run the code:
-*some more text*
- 1. step
- 1. step
- 1. step
+## Program Dependencies
+ 1. pandas
+ 2. numpy
+ 3. plotly
+ To install Plotly's python package, use the package manager pip inside your terminal.
+ $ pip install plotly 
+ or 
+ $ sudo pip install plotly 
+ Plotly's Python package is updated frequently! To upgrade, run: 
+ $ pip install plotly --upgrade
+ 4. beautifulSoup
+ How to install beautiful soup library?
+ You can just follow the link below:
+ https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python
+ 5. selenium
+ How to install selenium library?
+ You can just follow the link below:
+ https://selenium-python.readthedocs.io/installation.html
