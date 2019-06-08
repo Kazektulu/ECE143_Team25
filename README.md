@@ -134,7 +134,20 @@ Root
 |    plot_us_map_slide.py
 
 # How to run the code:
-*some more text*
- 1. step
- 1. step
- 1. step
+## Run the Program
+ __Data Collection and Cleaning:__ <br/>
+ scripts -> data_collection_cleaning
+ NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py
+ SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py
+ __Make sure that you give proper filenames and the API KEY for all of the data collection codes__
+ scripts -> data_collection_cleaning <br/>
+ NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py <br/>
+ SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py <br/>
+ __Make sure that you give proper filenames and the API KEY for all of the data collection codes__ <br/>
+
+ __Data Analysis:__ <br/>
+ scripts -> data_processing <br/>
+ Run scripts - discretionary_income_compute.py, quality_of_life.py, sample_job_processing.py <br/>
+
+ __Data Visualization:__ <br/>
+ Run the Visualizations Notebook.ipynb <br/>
