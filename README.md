@@ -9,7 +9,7 @@ Yifei Wu - ...2438 <br/>
 
 ## Introduction
  This project is for a class assignment in accordance with UCSD and ECE 143 guidelines. The objective is to probe and build abilities in data analysis utilizing real world datasets to perform a realistic and interesting objective. Rather than a singular task for the sake of novelty, we chose to build a toolset that is something each of us see as useful and important for not only us, but the other students and working professionals alike.<br/>
- With respect to the very common concern of career prospects for students after graduating, we decided to look at applying data to help addressing the problem of whether its a good idea to choose a high salary job in a high cost city in comparison to another area with lower salary, since we should be able to resolve <br/>
+ With respect to the very common concern of career prospects for students after graduating, we decided to look at applying data to help addressing the problem of whether its a good idea to choose a high salary job in a high cost city in comparison to another area with lower salary. Since we should be able to resolve comparisons and analysis with large scale regional data, we found that what we needed to resolve for and analyze was of the financial term "Discretionary Income", as it is what we speculate as the core fundamental value for personal finances, resources and heavily impacts quality of life.<br/><br/>
 
 ## Stage 1
 __Planning and Framing the program__<br/>
