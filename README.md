@@ -136,10 +136,10 @@ Root
 # How to run the code:
 ## Run the Program
  __Data Collection and Cleaning:__ <br/>
- scripts -> data_collection_cleaning
- NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py
- SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py
- __Make sure that you give proper filenames and the API KEY for all of the data collection codes__
+ scripts -> data_collection_cleaning <br/>
+ NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py <br/>
+ SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py <br/>
+ __Make sure that you give proper filenames and the API KEY for all of the data collection codes__ <br/>
  scripts -> data_collection_cleaning <br/>
  NUMBEO DATA: run scripts - city_item_prices.py and quality_of_life.py <br/>
  SALARY AND HEALTH DATA: run scripts - salary_health_data_scraper.py <br/>
