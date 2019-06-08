@@ -8,7 +8,8 @@ Yifei Wu - ...2438 <br/>
 # __Discretionary Income__<br/>
 
 ## Introduction
- This project is for a class assignment in accordance with UCSD and ECE 143 guidelines. The objective is to probe and build abilities in data analysis utilizing real world datasets to perform a realistic and interesting objective. Rather than a singular task for the sake of novelty, we chose to build a toolset that is something each of us see as useful and important for not only us, but the other students and working professionals alike.<br/><br/>
+ This project is for a class assignment in accordance with UCSD and ECE 143 guidelines. The objective is to probe and build abilities in data analysis utilizing real world datasets to perform a realistic and interesting objective. Rather than a singular task for the sake of novelty, we chose to build a toolset that is something each of us see as useful and important for not only us, but the other students and working professionals alike.<br/>
+ With respect to the very common concern of career prospects for students after graduating, we decided to look at applying data to help addressing the problem of whether its a good idea to choose a high salary job in a high cost city in comparison to another area with lower salary, since we should be able to resolve <br/>
 
 ## Stage 1
 __Planning and Framing the program__<br/>
@@ -71,4 +72,13 @@ __Presentation and Consolidation of Data__:<br/> *Notes*
   1. Trends among industry specific DI, by state distribution displayed observable trends for West vs East Coast analysis:<br/> Notably, Technology, Science, Medical trends hold higher DI (likely attributed specifically by Salary) held better yield in the West Coast, while Managerial and Administrative yeilded better DI in the East Coast - speculating to show the stereotypical coastal cultures in business styles hold divergent as progressive and more adaptable practices occur in the west vs the more traditional and structured practices in the East Coast states.
   1. One stark observation stands out for the Administrative Industry (support staffers) that correlates a negative DI calculated in CA, NY - wherein some of the highest population density metropolitan cities, and high CoL exist. This stands to tell of support staffers opperating on mostly nominal wages (yet usually above minimum wage) that speculates a struggle to maintain basic living standards under such high cost environments, irregardless of full time gainful employment.<br/> This trend does not follow to the other less population dense states however; So would require further analysis into more normalized and qualified datasets, and inclusion of local resolution data to draw any substantial conclusions. The recent discussion of a living wage may also be attributed as a pushback from the noted NY and CA net negative DI for normal working wages of administive staffers.
   1. Returning to the first discrepancy of the project: Explicitly defined discretionary income- calculated vs applied within the __Financial Industry__ itself: (__Salary - (1.5 * Federal Povery Rate) == Salary - $18,735__.) There is an *extrordinarily large distortion* of actual values where the value of calculable DI could expect in comparison to the convenient values the financial industry uses to *__evaluate the magnitude of Loan Interest Rates__* they can justify to assign to citizens.<br/> While speculation could only be validated with better qualified/ high precision datasets; assuming these trends hold true, the financial industry would be expected to know better for such a misleading/false difference, and so this observation leads to a *very dark __speculation__* of abuse of position; likely attributing to many of the modern day crisis in America between student loans, the Millenial generation's lack of purchasing power, the economy drying up, and the cause of so many economic crashes by economic bubbles already attributed to the financial industry's loan practices.  
+  
+# File Structure:
+*some text*
+  * Outline style bullet points
 
+# How to run the code:
+*some more text*
+ 1. step
+ 1. step
+ 1. step
